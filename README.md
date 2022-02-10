@@ -8,12 +8,12 @@ In this bytecode there are two public function.
 
 Online Solidity Decompiler
 « Decompile another contract
-# Public Methods
+1. Public Methods
 Method names cached from 4byte.directory.
-0xadc3034b Unknown
-0xef738a56 getSentence()
+- 0xadc3034b Unknown
+- 0xef738a56 getSentence()
 
-# Internal Methods
+2. Internal Methods
 func_00A9(arg0)
 func_00C5(arg0)
 func_011E() returns (r0)
@@ -36,10 +36,11 @@ func_044D(arg0, arg1)
 func_04F0(arg0) returns (r0)
 
 
-0xef738a56 getSentence()
+# Hash Analysis
+- 0xef738a56 getSentence()
 this is hash result web3.utils.sholiditykaccak256("getSentence()")
 
-0xadc3034b setSentence()
+- 0xadc3034b setSentence()
 web3.utils.soliditySha3("setSentence(string)")
 '0xadc3034b9600fb50b85898852d59dca85bba159cf809ab8beb4856d60b24307c'
 
